@@ -1,10 +1,11 @@
 {
-  "name" : "website-app-express",
-  "version" : "0.0.1",
-  "scripts" : {
-    "start" : "node Server.js"
+  "name": "website-app-express",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node Server.js"
   },
-  "dependencies" : {
-    "express" : "latest"
+  "dependencies": {
+    "express": "*",
+    "mongodb": "^2.2.24"
   }
 }
