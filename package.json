@@ -2,9 +2,11 @@
   "name": "website-app-express",
   "version": "0.0.1",
   "scripts": {
-    "start": "node Server.js"
+    "start": "node Server.js",
+    "test": "mocha"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "express": "*",
     "mongodb": "^2.2.24"
   }
