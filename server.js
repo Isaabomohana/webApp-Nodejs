@@ -6,6 +6,7 @@ require('dotenv').config();
 
 var config = require('./config');
 
+
 router.use(function (req,res,next) {
   console.log("/" + req.method);
   next();
